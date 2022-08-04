@@ -13,5 +13,7 @@ public class Main {
 
         System.out.println(ime + " dobrodošao na server :D!");
         // TODO napravi da bot pogodi koliko godina
+        // godine = (ostatak3 * 70 + ostatak5 * 21 + ostatak7 * 15) % 105
+        // bot treba uzeti ostatak3/5/7 iz unosa, te varijable predstavljaju ostatak od dijeljenja korisnikovih godina sa tim brojevima.
     }
 }
