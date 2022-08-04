@@ -32,5 +32,8 @@ public class Main {
             brojac++;
         }
         System.out.println("Bravo prošao/la si verifikaciju :D.");
+
+        // TODO Pitaj korisnika pitanje o Javi, ponudi mu 4 odgovora između kojih on mora izabrati.
+        // ako korisnik pogriješi, reci mu da mu je odgovor pogrešan i ponovljaj unos sve dok unos ne bude tačan.
     }
 }
