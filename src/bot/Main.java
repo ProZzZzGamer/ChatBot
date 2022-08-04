@@ -12,6 +12,6 @@ public class Main {
         String ime = unos.nextLine();
 
         System.out.println(ime + " dobrodošao na server :D!");
-
+        // TODO napravi da bot pogodi koliko godina
     }
 }
