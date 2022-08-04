@@ -33,7 +33,33 @@ public class Main {
         }
         System.out.println("Bravo prošao/la si verifikaciju :D.");
 
-        // TODO Pitaj korisnika pitanje o Javi, ponudi mu 4 odgovora između kojih on mora izabrati.
-        // ako korisnik pogriješi, reci mu da mu je odgovor pogrešan i ponovljaj unos sve dok unos ne bude tačan.
+        System.out.println("Da bi imao pristup kanalima na serveru, imaš još jedan korak da ispuniš.");
+        System.out.println("Zadnji korak za pristup svim kanalima je: moraš odgovoriti tačno na pitanje o programskom jeziku Javi.");
+        System.out.println("Ovo pitanje će biti lahko, a i da pogriješiš imati ćeš šansu opet odgovoriti dok tačno ne odgovoriš.");
+        System.out.println("Pa da počemo :D.");
+
+        String pitanje = "Koja vrsta variable je \"Hazim\"?";
+
+        String odgovor = "1. int";
+        String odgovor2 = "2. String";
+        String odgovor3 = "3. double";
+        String odgovor4 = "4. char";
+
+        System.out.println(pitanje);
+
+        System.out.println(odgovor);
+        System.out.println(odgovor2);
+        System.out.println(odgovor3);
+        System.out.println(odgovor4);
+
+        System.out.println("Upiši broj pitanja kao odgovor (bez tačke).");
+
+        int odgNaPitanje = unos.nextInt();
+        while (odgNaPitanje != 2) {
+            System.out.println("Nije tačno!");
+            System.out.println("Pokušaj ponovo. Uspjeti ćeš :D");
+            odgNaPitanje = unos.nextInt();
+        }
+        System.out.println("Odgovor je tačan :D, svaka čast sad imaš pristup svim kanalima.");
     }
 }
