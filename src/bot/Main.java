@@ -21,6 +21,16 @@ public class Main {
 
         System.out.print("Tvoj broj godina je ");
         System.out.println((o3 * 70 + o5 * 21 + o7 * 15) % 105);
-        // TODO Bot treba pitati korisnika da unese broj, i zatim će bot brojati od 0 pa do tog broja
+
+        System.out.println("Hvala na datim informacijama :D, sad trebaš uraditi verifikaciju da si čovjek a ne robot. Upiši neki broj");
+
+        int br = unos.nextInt();
+        int brojac = 0;
+
+        while (brojac <= br) {
+            System.out.println(brojac);
+            brojac++;
+        }
+        System.out.println("Bravo prošao/la si verifikaciju :D.");
     }
 }
