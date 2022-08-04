@@ -21,6 +21,5 @@ public class Main {
 
         System.out.print("Tvoj broj godina je ");
         System.out.println((o3 * 70 + o5 * 21 + o7 * 15) % 105);
-
     }
 }
